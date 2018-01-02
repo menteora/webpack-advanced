@@ -62,4 +62,3 @@ This is good if you want to start your project already using Vuetify's beta vers
 ### Cannot Fork It To Make Your Own
 
 Because github does not permit making a fork of a fork, and this repo is already a fork of `vuejs-templates/webpack`, this repo cannot be forked. If this sucks for you, please say so in the [discord chat](https://discordapp.com/channels/340160225338195969/340311652467736596).
-You can fork this repo to create your own boilerplate, and use it with `vue-cli`:
