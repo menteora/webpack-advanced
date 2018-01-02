@@ -23,6 +23,16 @@ $ npm run dev
 
 The development server will run on port 8080 by default. If that port is already in use on your machine, the next free port will be used.
 
+## Use Next Version of Vuetify
+
+To use the dev version of vuetify, follow the same instructions as above, but replace the second step with this:
+
+``` bash
+$ vue init vuetifyjs/webpack-advanced#next my-project
+```
+
+This is good if you want to start your project already using Vuetify's beta version.
+
 ## What's Included
 
 - `npm run dev`: first-in-class development experience.
@@ -49,10 +59,7 @@ The development server will run on port 8080 by default. If that port is already
     - Selenium and chromedriver dependencies automatically handled.
     - Automatically spawns the Selenium server.
 
-### Fork It And Make Your Own
+### Cannot Fork It To Make Your Own
 
+Because github does not permit making a fork of a fork, and this repo is already a fork of `vuejs-templates/webpack`, this repo cannot be forked. If this sucks for you, please say so in the [discord chat](https://discordapp.com/channels/340160225338195969/340311652467736596).
 You can fork this repo to create your own boilerplate, and use it with `vue-cli`:
-
-``` bash
-vue init username/repo my-project
-```
