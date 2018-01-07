@@ -25,6 +25,7 @@ import 'vuetify/dist/vuetify.css'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import router from './router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import store from './store/index'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 {{#alacarte}}
 Vue.use(Vuetify, {
@@ -67,6 +68,7 @@ Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 new Vue({
   el: '#app',
   router,
+  store,
   {{#if_eq build "runtime"}}
   render: h => h(App){{#if_eq lintConfig "airbnb"}},{{/if_eq}}
   {{/if_eq}}

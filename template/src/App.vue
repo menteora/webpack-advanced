@@ -3,8 +3,6 @@
     <v-navigation-drawer
       fixed
       temporary
-      :mini-variant="miniVariant"
-      :clipped="clipped"
       v-model="drawer"
       app
     >
