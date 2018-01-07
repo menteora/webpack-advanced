@@ -1,14 +1,14 @@
 <template>
-  <div class="hello">
+  <div class="home">
     <h1>\{{ msg }}</h1>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Home',
   data{{#unless_eq lintConfig "airbnb"}} {{/unless_eq}}() {
     return {
-      msg: 'Hello World'{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
+      msg: 'Home'{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
     }{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
   }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
 }{{#if_eq lintConfig "airbnb"}};{{/if_eq}}

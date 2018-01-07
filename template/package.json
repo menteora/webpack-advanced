@@ -24,8 +24,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "vue": "^2.5.3"{{#router}},
-    "vue-router": "^3.0.1"{{/router}},
+    "vue": "^2.5.3",
+    "vue-router": "^3.0.1",
     "vuetify": "^0.17.4"
   },
   "devDependencies": {
@@ -139,9 +139,7 @@
     "collectCoverageFrom" : [
       "src/**/*.{js,vue}",
       "!src/main.js",
-      {{#router}}
       "!src/router/index.js",
-      {{/router}}
       "!**/node_modules/**"
     ]
   },
