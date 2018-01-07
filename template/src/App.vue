@@ -37,7 +37,7 @@
           :to="item.to" 
           flat
         >
-          <v-icon left v-html="item.icon"></v-icon>{{item.title}}
+          <v-icon left v-html="item.icon"></v-icon>\{{item.title}}
         </v-btn>
       </v-toolbar-items>
     </v-toolbar>
