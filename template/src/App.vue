@@ -55,12 +55,12 @@
         items: [{
           icon: 'home',
           title: 'Home',
-          to: '/'{{#if_eq lintConfig "airbnb"}},{{/if_eq}} 
+          to: '/'{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
         },
         {
           icon: 'label',
           title: 'HelloWorld',
-          to: '/hello'{{#if_eq lintConfig "airbnb"}},{{/if_eq}} 
+          to: '/hello'{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
         }],
         title: 'Vuetify.js'{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
       }{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
